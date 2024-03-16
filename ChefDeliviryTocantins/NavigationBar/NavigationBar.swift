@@ -19,8 +19,10 @@ struct NavigationBar: View {
             .foregroundColor(.black)
             Spacer()
             
-            Button("Notificações") {
-                
+            Button(action: {}) {
+                Image(systemName: "bell.badge")
+                    .font(.title3)
+                    .foregroundColor(.red)
             }
         }
     }
@@ -28,4 +30,6 @@ struct NavigationBar: View {
 
 #Preview {
     NavigationBar()
+        .previewLayout(.sizeThatFits)
+        .padding()
 }
