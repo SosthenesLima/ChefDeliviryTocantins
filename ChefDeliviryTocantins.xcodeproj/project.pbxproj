@@ -11,6 +11,7 @@
 		66E5E22A2BA51BB200CFCB7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5E2292BA51BB200CFCB7C /* ContentView.swift */; };
 		66E5E22C2BA51BB300CFCB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E5E22B2BA51BB300CFCB7C /* Assets.xcassets */; };
 		66E5E22F2BA51BB300CFCB7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E5E22E2BA51BB300CFCB7C /* Preview Assets.xcassets */; };
+		66E5E2382BA520DB00CFCB7C /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5E2372BA520DB00CFCB7C /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		66E5E2292BA51BB200CFCB7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		66E5E22B2BA51BB300CFCB7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66E5E22E2BA51BB300CFCB7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66E5E2372BA520DB00CFCB7C /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		66E5E2262BA51BB200CFCB7C /* ChefDeliviryTocantins */ = {
 			isa = PBXGroup;
 			children = (
-				66E5E2272BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift */,
-				66E5E2292BA51BB200CFCB7C /* ContentView.swift */,
+				66E5E2362BA5208100CFCB7C /* App */,
+				66E5E2352BA5204700CFCB7C /* NavigationBar */,
 				66E5E22B2BA51BB300CFCB7C /* Assets.xcassets */,
 				66E5E22D2BA51BB300CFCB7C /* Preview Content */,
 			);
@@ -65,6 +67,23 @@
 				66E5E22E2BA51BB300CFCB7C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66E5E2352BA5204700CFCB7C /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				66E5E2372BA520DB00CFCB7C /* NavigationBar.swift */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		66E5E2362BA5208100CFCB7C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				66E5E2272BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift */,
+				66E5E2292BA51BB200CFCB7C /* ContentView.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				66E5E22A2BA51BB200CFCB7C /* ContentView.swift in Sources */,
 				66E5E2282BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift in Sources */,
+				66E5E2382BA520DB00CFCB7C /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
