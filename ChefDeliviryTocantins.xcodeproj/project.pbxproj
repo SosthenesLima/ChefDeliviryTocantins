@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668B07172BA764AA00F58456 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B07162BA764AA00F58456 /* OrderTypeGridView.swift */; };
 		66E5E2282BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5E2272BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift */; };
 		66E5E22A2BA51BB200CFCB7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E5E2292BA51BB200CFCB7C /* ContentView.swift */; };
 		66E5E22C2BA51BB300CFCB7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E5E22B2BA51BB300CFCB7C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		668B07162BA764AA00F58456 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
 		66E5E2242BA51BB200CFCB7C /* ChefDeliviryTocantins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDeliviryTocantins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E5E2272BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliviryTocantinsApp.swift; sourceTree = "<group>"; };
 		66E5E2292BA51BB200CFCB7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		668B07152BA7642200F58456 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				668B07162BA764AA00F58456 /* OrderTypeGridView.swift */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
 		66E5E21B2BA51BB200CFCB7C = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 			children = (
 				66E5E2362BA5208100CFCB7C /* App */,
 				66E5E2352BA5204700CFCB7C /* NavigationBar */,
+				668B07152BA7642200F58456 /* GridView */,
 				66E5E22B2BA51BB300CFCB7C /* Assets.xcassets */,
 				66E5E22D2BA51BB300CFCB7C /* Preview Content */,
 			);
@@ -157,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E5E22A2BA51BB200CFCB7C /* ContentView.swift in Sources */,
+				668B07172BA764AA00F58456 /* OrderTypeGridView.swift in Sources */,
 				66E5E2282BA51BB200CFCB7C /* ChefDeliviryTocantinsApp.swift in Sources */,
 				66E5E2382BA520DB00CFCB7C /* NavigationBar.swift in Sources */,
 			);
