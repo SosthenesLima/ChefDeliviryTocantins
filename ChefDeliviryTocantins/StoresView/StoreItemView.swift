@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct StoreItemView: View {
+    
+    let order: OrderType
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(order.image)
+                .resizable()
+                .scaledToFill()
+                .cornerRadius(25)
+                .frame(width: 50, height: 50)
+            VStack {
+                Text(order.name)
+                    .font(.subheadline)
+            }
+            
+            
+        }
     }
 }
 
 #Preview {
-    StoreItemView()
+    StoreItemView(order: OrderType(id: 1, name: "Monstro Burger", image: "monstro-burger-logo"))
+        .previewLayout(.sizeThatFits)
 }
