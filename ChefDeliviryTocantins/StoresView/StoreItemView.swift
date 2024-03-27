@@ -23,7 +23,7 @@ struct StoreItemView: View {
                     .font(.subheadline)
             }
             
-            
+          Spacer()
         }
     }
 }
