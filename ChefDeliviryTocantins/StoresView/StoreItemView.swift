@@ -1,9 +1,9 @@
-//
-//  StoreItemView.swift
-//  ChefDeliviryTocantins
-//
-//  Created by Sósthenes Oliveira Lima on 26/03/24.
-//
+/*
+    StoreItemView.swift
+    ChefDeliviryTocantins
+ 
+    Created by Sósthenes Oliveira Lima on 26/03/24.
+*/
 
 import SwiftUI
 

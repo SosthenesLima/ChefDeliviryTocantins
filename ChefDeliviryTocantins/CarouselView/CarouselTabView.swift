@@ -1,9 +1,9 @@
-//
-//  CarouselTabView.swift
-//  ChefDeliviryTocantins
-//
-//  Created by Sósthenes Oliveira Lima on 25/03/24.
-//
+/*
+    CarouselTabView.swift
+    ChefDeliviryTocantins
+
+    Created by Sósthenes Oliveira Lima on 25/03/24.
+*/
 
 import SwiftUI
 
